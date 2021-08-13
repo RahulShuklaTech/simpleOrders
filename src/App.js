@@ -9,7 +9,7 @@ function App() {
   const [orders, setOrders] = useState([]);
   const [product, setProduct] = useState("");
   const [quantity, setQuantity] = useState(0);
-  const [total, setTotal] = useState(0);
+  
   const [price, setPrice] = useState(0);
 
 
@@ -26,7 +26,7 @@ function App() {
       setProduct("");
       setQuantity(0);
       setPrice(0);
-      setTotal(0);
+     
     }
   }
 
